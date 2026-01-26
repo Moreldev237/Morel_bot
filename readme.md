@@ -23,5 +23,5 @@ Un chatbot intelligent basé sur GPT-4.1 via OpenRouter, avec une interface conv
 
 1. Clonez le dépôt :
 ```bash
-git clone [votre-repo]
+git clone https://github.com/Moreldev237/Morel_bot.git
 cd morelbot
