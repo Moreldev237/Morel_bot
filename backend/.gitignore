@@ -7,31 +7,17 @@ media/
 
 # Environment variables
 .env
-.env.local
+
 
 # IDE
 .vscode/
 .idea/
 
-# OS
-.DS_Store
-Thumbs.db
-
 # Python
 venv/
 env/
 ENV/
-env.bak/
-venv.bak/
 
-# Node
-node_modules/
-npm-debug.log*
 
-# Build
-/dist/
-/build/
 
-# Frontend
-frontend/bundle.js
-frontend/bundle.js.map
+

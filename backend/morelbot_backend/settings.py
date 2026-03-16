@@ -1,8 +1,10 @@
 
 import os
 from pathlib import Path
-from dotenv import load_dotenv
 
+# Load environment variables from .env file FIRST
+# This must be done before accessing os.getenv()
+from dotenv import load_dotenv
 load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -116,4 +118,4 @@ CORS_ALLOWED_ORIGINS = [
 CORS_ALLOW_CREDENTIALS = True
 
 OPENROUTER_API_KEY = os.getenv('OPENROUTER_API_KEY')
-OPENROUTER_MODEL = os.getenv('OPENROUTER_MODEL', 'openai/gpt-4.1')
+OPENROUTER_MODEL = os.getenv('OPENROUTER_MODEL', 'openai/gpt-4.1')  
